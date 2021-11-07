@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="author" content="Jake Fuller">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style>
+      body {
+        background-image: url("img/background.png");
+      }
+    </style>
+    <title>Mog Station</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#"><img src="img/squareenix-border.png" alt="Logo" width="200" height="22"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Login <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="register.html">Register</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Lodestone (Under Maintenance)</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Language
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#English"><img src="img/englishlang.png" class="rounded" alt="Lang Logo" width="25" height="20"> English</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#French"><img src="img/uklang.png" class="rounded" alt="Lang Logo" width="25" height="20"> UK English</a>
+            <a class="dropdown-item" href="#French"><img src="img/frenchlang.png" class="rounded" alt="Lang Logo" width="25" height="20"> French</a>
+            <a class="dropdown-item" href="#German"><img src="img/germanlang.png" class="rounded" alt="Lang Logo" width="25" height="20"> German</a>
+            <a class="dropdown-item" href="#Japanese"><img src="img/japaneselang.png" class="rounded" alt="Lang Logo" width="25" height="20"> Japanese</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    
+    <div class="jumbotron jumbotron-fluid">
+      <div class="container-fluid">
+        <p class="ml-4" style="color:red;"><b>Welcome to the Mog Station, the account management page for FINAL FANTASY XIV!</b></p>
+        <p class="ml-4">Here you can manage your FINAL FANTASY XIV account and make use of additional services such as World transfers.</p>
+      </div>
+    </div>
+
+    <form class="form-signin text-center" style="display: block;">
+      <img class="mb-2" src="img/mogstationlogo.png" alt="Mog Station Logo">
+      <div class="card text-center mx-auto" style="width: 45rem;">
+        <div class="card-header">
+          <h1 class="h4 mb-0 font-weight-normal">Log in</h1>
+        </div>
+        <div class="card-body">
+          <div class="mb-2" style="display: flex">
+            <label for=inputID class="sr-only">Square Enix ID</label>
+            <input type="email" id="inputID" class="form-control" placeholder="Square Enix ID" required autofocus>
+          </div>
+          <div style="display: flex">
+            <label for=inputID class="sr-only">Square Enix Password</label>
+            <input type="email" id="inputID" class="form-control" placeholder="Square Enix Password" required>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item"></li>
+            <li class="list-group-item"><a style="color: blue;" href="reminder.html">Forgot Password?</a></li>
+            <li class="list-group-item">
+              <div class="checkbox mb-2">
+                <label>
+                  <input type="checkbox" value="remember-me">
+                  Remember Square Enix ID
+                </label>
+              </div>
+            </li>
+          </ul>
+          <button class="btn btn-lg btn-danger btn-block" type="submit">Log in</button>
+        </div>
+      </div>
+    </form>
+
+    <footer class="footer mt-auto py-3">
+    	<div class="container text-center" style="font-size: 12px">
+    		<span class="text-muted">
+    			© 2010 - 2019 SQUARE ENIX CO., LTD. All Rights Reserved.<br>
+    			FINAL FANTASY, FINAL FANTASY XIV, FFXIV, SQUARE ENIX, and the SQUARE ENIX logo are registered trademarks or trademarks of Square Enix Holdings Co., Ltd.<br>
+    			SHADOWBRINGERS, STORMBLOOD, HEAVENSWARD, and A REALM REBORN are registered trademarks or trademarks of Square Enix Co., Ltd.<br>
+    			PlayStation, the "PS" family logo, the PlayStation Network logo and "PS4" are registered trademarks or trademarks of Sony Interactive Entertainment Inc.<br>
+    			ESRB and the ESRB rating icon are registered trademarks of the Entertainment Software Association. <br>
+    			MAC is a trademark of Apple Inc., registered in the U.S. and other countries.<br>
+    			Windows is either a registered trademark or trademark of Microsoft Corporation in the United States and/or other countries.<br>
+    			All other trademarks are property of their respective owners.<br>
+    			©2019 Valve Corporation. Steam and the Steam logo are trademarks and/or registered trademarks of Valve Corporation in the U.S. and/or other countries.<br>
+    		</span>
+    	</div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
